@@ -33,6 +33,10 @@
       ]
     ]
   },
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/matthispaita/"
+  },
   "author": {
     "name" : "Matthis Païta",
     "email" : "matthis.paita@gmx.com"
