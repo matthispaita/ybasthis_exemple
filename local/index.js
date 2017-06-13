@@ -2,7 +2,7 @@
 
 const interpreter = ((IIO) => () => IIO.question
 (
-   '[c=close | rd=reload-remote]\n>', res =>
+   '[c=close | rr=reload-remote]\n>', res =>
     {
         if (interpreter[res])
             interpreter[res]();
@@ -18,7 +18,7 @@ const interpreter = ((IIO) => () => IIO.question
     output: process.stdout
 }));
 interpreter.c = () => process.exit(0);
-interpreter.rd = (cp => () => cp.exec
+interpreter.rr = (cp => () => cp.exec
 (
     'node_modules/.bin/webpack --config ./configuration/webPack.js',
     {
