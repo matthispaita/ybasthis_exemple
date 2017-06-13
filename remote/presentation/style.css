@@ -1,0 +1,26 @@
+@font-face
+{
+	font-family: policeCaractere;
+	src: url("./policeCaractere.ttf");
+} 
+
+body
+{
+	height				:95%;
+	width				:99%;
+	font-weight		: 700;
+}
+
+#menuPrincipal
+{
+	height	: 8%;
+	min-height : 1.5em;
+	position:absolute;
+}
+			
+#espaceDeTravail
+{
+	position:absolute;
+	height	: 100%;
+	width	: 100%;
+}

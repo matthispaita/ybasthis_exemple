@@ -1,0 +1,41 @@
+{
+  "name": "ybasthis_example",
+  "description": "",
+  "version": "1.0.0",
+  "main": "local/index.js",
+  "dependencies": {
+    "express": "^4.15.3"
+  },
+  "devDependencies":
+  {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.5.0",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node local/index.js"
+  },
+  "babel":
+  {
+    "sourceMaps": "both",
+    "presets":
+    [
+      [
+        "es2015",
+        {
+          "modules": false
+        }
+      ]
+    ]
+  },
+  "author": {
+    "name" : "Matthis Païta",
+    "email" : "matthis.paita@gmx.com"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}
